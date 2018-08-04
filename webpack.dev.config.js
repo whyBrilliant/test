@@ -4,6 +4,12 @@ const webpack = require('webpack');
 
 module.exports = {
   // 1.写好入口和输出
+  // entry: [
+  //   'react-hot-loader/patch',
+  //   path.join(__dirname, 'src/index.js')
+  // ],
+
+  // 热模块替换时引入
   entry: [
     'react-hot-loader/patch',
     path.join(__dirname, 'src/index.js')
