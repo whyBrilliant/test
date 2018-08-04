@@ -1,0 +1,31 @@
+{
+  "name": "testwebpack",
+  "version": "1.0.0",
+  "description": "testProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-build": "webpack --config webpack.dev.config.js",
+    "start": "webpack-dev-server --config webpack.dev.config.js --color --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.0",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "react-hot-loader": "^4.0.0-beta.18",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
